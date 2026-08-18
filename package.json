@@ -6,10 +6,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0"
+  },
   "scripts": {
     "test": "node -e \"console.log('tests pass')\"",
-    "whatever": "echo hello world"
+    "whatever": "echo hello world",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
