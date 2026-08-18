@@ -1,12 +1,6 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => res.send("Hello, world!"));
+app.get("/", (req, res) => res.send("Hello!"));
 
-const PORT = 3000;
-app.listen(PORT, (error) => {
-  if (error) {
-    throw error;
-  }
-  console.log(`My first Express app - listening on port ${PORT}!`);
-});
+module.exports = app;
